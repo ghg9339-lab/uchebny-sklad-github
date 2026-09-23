@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b79b0cc8-918b-453f-89cd-a1ed2c63f475">
+  <producedTypes>
+    <objectType typeId="68277cf0-059f-422c-bbcb-d8d76a360778" valueTypeId="e4031993-3081-43c4-acee-ba17c83d71a5"/>
+    <refType typeId="b5aa2bf7-a4b7-4dde-9f28-068d0c674632" valueTypeId="0e1aaa88-c92c-4c45-9faa-b785f30542a8"/>
+    <selectionType typeId="72777a2b-6079-491e-8c46-fcf7310f7e1a" valueTypeId="7b5a3fd1-30a0-465d-ae8d-52d71fb15ec8"/>
+    <listType typeId="d73ee8b8-a143-4b9b-aa07-337c1de0f0d4" valueTypeId="8bc4784a-d8f8-44d8-b87e-168062fcfca8"/>
+    <managerType typeId="5ad07b71-3d09-42d5-822e-6b1880d767da" valueTypeId="4326c1f0-6d32-4f3b-8f75-d0eb08b363f8"/>
+  </producedTypes>
+  <name>ПриходТовара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход товара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Приход товара</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Приходы товара</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиНаСкладах</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="b434f4f5-4d37-401e-95be-fc6098cbc0a7">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7cffc17e-3d08-416f-bece-d4e130fff591">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="df8bf43f-5e53-4983-8744-c86bf25276a0">
+    <producedTypes>
+      <objectType typeId="618080de-1a52-4b35-8023-6a23ca034ef1" valueTypeId="ab0b994f-da04-4368-9eb0-02a2f1c1b394"/>
+      <rowType typeId="7728f886-47fc-45c6-b54d-7f45142bc254" valueTypeId="d5b537e7-2aec-4f77-b0ed-b15a174900b8"/>
+    </producedTypes>
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+    <attributes uuid="f6b7a754-0352-482c-b254-0ed53a1deb3b">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6b00be2a-eca0-4e00-968c-e7e5d5213613">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3486ba0a-7025-4552-8c36-9dda53492286">
+  <producedTypes>
+    <objectType typeId="1fa6a244-a412-4560-b62a-58e5eca4a4b8" valueTypeId="ae81e473-6290-4b5e-8485-9dbe1d8d6859"/>
+    <managerType typeId="8e0fa893-51a4-4dc6-9470-d92506b90a02" valueTypeId="e2c45ddd-2ac9-435f-87a3-5aa54c9ed6bd"/>
+  </producedTypes>
+  <name>ТестовоеЗаполнениеСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестовое заполнение склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ТестовоеЗаполнениеСклада.Form.ОсновнаяФорма</defaultForm>
+  <forms uuid="740d3d2e-f333-44c6-942e-24bd87fddb6b">
+    <name>ОсновнаяФорма</name>
+  </forms>
+</mdclass:DataProcessor>

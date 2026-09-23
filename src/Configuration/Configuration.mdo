@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3390aaa6-d424-439c-9ac5-933ed9b6095b">
+  <name>УчебныйСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учебный склад</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1b2a0e3e-b6dd-46f7-8d62-9d128f46b214"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="119b49fb-4f8d-4313-bfa4-3ee079e609c6"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="aeed21f6-a48f-40a5-aa14-e5e1d9cc1174"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8c566704-14a0-43fc-9e00-289136663956"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="a6294010-7e6d-48ad-a7c9-26c8b3435299"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5ad3b691-11dc-48e7-9f8f-c8b8a6ae6cb6"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="37e57688-0238-4f73-b750-0bab9dbb4ee6"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.5.1</compatibilityMode>
+  <languages uuid="f49f7fd7-e00f-4509-be53-6427869cdc98">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Склад</subsystems>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Склады</catalogs>
+  <documents>Document.ПриходТовара</documents>
+  <documents>Document.РасходТовара</documents>
+  <reports>Report.ОстаткиНаСкладах</reports>
+  <dataProcessors>DataProcessor.ТестовоеЗаполнениеСклада</dataProcessors>
+  <accumulationRegisters>AccumulationRegister.ОстаткиНаСкладах</accumulationRegisters>
+</mdclass:Configuration>
